@@ -1,13 +1,12 @@
 ## url :- https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024-03-06/v1/currencies/eur.json 
 
-##Input Box
-
+# Input Box
+```
 function InputBox({
     label,
     
     className = "",
 }) {
-   
 
     return (
         <div className={`bg-white p-3 rounded-lg text-sm flex `}>
@@ -38,5 +37,6 @@ function InputBox({
         </div>
     );
 }
+```
 
 export default InputBox;
