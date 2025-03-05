@@ -37,6 +37,7 @@ function InputBox({
         </div>
     );
 }
-```
+
 
 export default InputBox;
+```
