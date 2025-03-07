@@ -10,8 +10,9 @@ function App() {
   const addValue = () => {
     
     for(let i = counter; i < 20; i+=counter){
-       counter = counter + 1;
-      setCounter(counter )
+       counter = counter + 1;  
+       setCounter(counter )
+       
     }
     
   }
